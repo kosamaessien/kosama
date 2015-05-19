@@ -1,0 +1,31 @@
+/*
+Question 3. cpp
+*
+* Name:         ESSIEN KOSAMA ITAM
+* Department:   COMPUTER SCIENCE
+* Reg. No:      PDS/2013/0952
+*
+* A Program that prints a box, an oval, an arrow and a diamond
+*
+* Stub file to enable you complete assignment #1 - question #3
+*/
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    cout << "**********           ***           *            *" << endl;
+    cout << "*        *         *     *        ***          * *" << endl;
+    cout << "*        *        *       *      *****        *   *" << endl;
+    cout << "*        *        *       *        *         *     *" << endl;
+    cout << "*        *        *       *        *        *       *" << endl;
+    cout << "*        *        *       *        *         *     *" << endl;
+    cout << "*        *        *       *        *          *   *" << endl;
+    cout << "*        *         *     *         *           * *" << endl;
+    cout << "**********           ***           *            *" << endl;
+   
+    cout << "\nThanks and Goodbye";  
+    system("PAUSE");
+    return 0;
+}

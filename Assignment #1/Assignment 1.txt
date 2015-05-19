@@ -1,0 +1,44 @@
+/*
+* Question 1.cpp
+*
+* Name:         ESSIEN KOSAMA ITAM
+* Department:   COMPUTER SCIENCE
+* REG. No:      PDS/2013/0952
+*
+* Program that reads an Integer and determines
+* and rints whether it's odd or even
+*
+* Stub file to enable you complete assignment #1 - question #1
+*/
+
+//A Program to identify if a number is Odd or Even
+
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+    int value;
+    
+    cout << "Welcome - This program reads an Integer\n";
+    
+    cout << "and determines if it is odd or even\n\n";
+    
+    cout << "Please enter an Integer value here - ";
+    
+    cin >> value;
+    
+    if ( value % 2 == 0)
+    {
+         cout << value << " is Even ";
+    }
+    
+    if ( value % 2 != 0)
+    {
+         cout << value << " is Odd ";
+    }
+    
+    cout << "\nThanks and Goodbye";
+    system("PAUSE");
+    return 0;
+}             
