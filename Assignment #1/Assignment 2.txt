@@ -17,18 +17,24 @@
 using namespace std;
 int main ()
 {
+    // variable declaration
     int FirstInteger;
     int SecondInteger;
     
+    //display welcome message to user
     cout << "Welcome - This program reads two integers\n";
     cout << "and determines if the first is a multiple of the second\n\n";
     
+    // Read first integer
     std::cout << "Enter First Integer value here - : ";
     std::cin >> FirstInteger;
     
+    // Read second integer
     std::cout << "Enter Second Integer value here - : ";
     std::cin >> SecondInteger;
     
+    // Determine if first is a multiole of second
+    // put code here
     if ( FirstInteger % SecondInteger == 0)
     {
        int x;
@@ -41,6 +47,6 @@ int main ()
          cout << FirstInteger << " is not a Multiple of " << SecondInteger;
     }
     
-    system("PAUSE");
-    return 0;
+    system("PAUSE >nul");
+    return EXIT_SUCCESS;
 }             

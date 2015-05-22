@@ -1,5 +1,5 @@
 /*
-Question 3. cpp
+* Question3.cpp
 *
 * Name:         ESSIEN KOSAMA ITAM
 * Department:   COMPUTER SCIENCE
@@ -11,10 +11,13 @@ Question 3. cpp
 */
 
 #include <iostream>
-
 using namespace std;
+
 int main()
+
 {
+    // TODO: Use multiple cout statements to print shapes as shown in assignment pdf file
+    // Put code here ...
     cout << "**********           ***           *            *" << endl;
     cout << "*        *         *     *        ***          * *" << endl;
     cout << "*        *        *       *      *****        *   *" << endl;
@@ -25,7 +28,16 @@ int main()
     cout << "*        *         *     *         *           * *" << endl;
     cout << "**********           ***           *            *" << endl;
    
-    cout << "\nThanks and Goodbye";  
-    system("PAUSE");
-    return 0;
+    cout << "\nThanks and Goodbye";
+	  
+    system("PAUSE >nul");
+    return EXIT_SUCCESS;
 }
+    
+    
+    
+    
+    
+    
+    
+    

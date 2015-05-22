@@ -1,0 +1,60 @@
+/*
+* Question 5.cpp
+*
+* Name:		ESSIEN KOSAMA ITAM
+* Department:	COMPUTER SCIENCE
+* Reg No:	PDS/2013/0952
+*
+* Program that calculates the squares and cubes of the integers from 0 to 10
+*
+* Stub file to enable you complete assignment #1 - question #5
+*/
+
+#include <iostream>
+#include <math.h>	// library to use pow() function to calculate squares and cubes
+using namespace std;
+ 
+int main()
+{
+	// Variable declaration
+	int a,b,c,d,e,f,g,h,i,j,k;
+	
+	
+	// display welcome messages to user
+	cout << "Welcome - This program calculates the aquares and cubes\n";
+	cout << "of the integers from 0 to 10 and prints using tabs\n\n";
+	cout << "       " << endl;
+	
+	// TODO; Hint use pow(base, power) to calculate squares and cubes
+	// Put code here ...
+	a=0;
+	b=1;
+	c=2;
+	d=3;
+	e=4;
+	f=5;
+	g=6;
+	h=7;
+	i=8;
+	j=9;
+	k=10;
+	
+	cout << "Integer\tSquare\tCube\n";
+	cout << "0" "\t" << pow(a, 2) << "\t" << pow(a, 3) << endl;
+	cout << "1" "\t" << pow(b, 2) << "\t" << pow(b, 2) << endl;
+	cout << "2" "\t" << pow(c, 2) << "\t" << pow(c, 3) << endl;
+	cout << "3" "\t" << pow(d, 2) << "\t" << pow(d, 3) << endl;
+	cout << "4" "\t" << pow(e, 2) << "\t" << pow(e, 3) << endl;
+	cout << "5" "\t" << pow(f, 2) << "\t" << pow(f, 3) << endl;
+	cout << "6" "\t" << pow(g, 2) << "\t" << pow(g, 3) << endl;
+	cout << "7" "\t" << pow(h, 2) << "\t" << pow(h, 3) << endl;
+	cout << "8" "\t" << pow(i, 2) << "\t" << pow(i, 3) << endl;
+	cout << "9" "\t" << pow(j, 2) << "\t" << pow(j, 3) << endl;
+	cout << "10""\t" << pow(k, 2) << "\t" << pow(k, 3) << endl;
+	
+	cout << "\nThanks and Goodbye";
+	
+   system ("PAUSE >nul");
+   return EXIT_SUCCESS;
+}
+ 

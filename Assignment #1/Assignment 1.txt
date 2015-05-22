@@ -18,16 +18,21 @@
 using namespace std;
 int main ()
 {
+    // Declare variable to hold integer value
     int value;
     
+    // Display welcome message to user
     cout << "Welcome - This program reads an Integer\n";
     
     cout << "and determines if it is odd or even\n\n";
     
-    cout << "Please enter an Integer value here - ";
+    // TODO: Enter code toread integer and store in variable value
+    cout << "Please enter an Integer value here - "; // put code here...
     
+    // TODO: Enter code to determine if integer is odd or even
     cin >> value;
     
+    // put code here
     if ( value % 2 == 0)
     {
          cout << value << " is Even ";
@@ -39,6 +44,6 @@ int main ()
     }
     
     cout << "\nThanks and Goodbye";
-    system("PAUSE");
-    return 0;
+    system("PAUSE <nul");
+    return EXIT_SUCCESS;
 }             
